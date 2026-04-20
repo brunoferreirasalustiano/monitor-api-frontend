@@ -4,9 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - API Monitor</title>
-    
-    <link rel="stylesheet" href="CSS/style.css"> 
-    
+
+    <script>
+        // O Guardião Inverso: Se JÁ TEM token, pula direto para o index
+        const token = localStorage.getItem('token_monitor');
+        if (token) {
+            window.location.href = 'index.html';
+        }
+    </script>
+
+    <link rel="stylesheet" href="CSS/style.css">
     <script src="js/script.js" defer></script>
 </head>
 <body>
