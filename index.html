@@ -2,11 +2,11 @@
 <html lang="pt-br">
 <head>
     <script>
-    // O Guardião da Porta (executa antes de carregar o resto da página)
     const token = localStorage.getItem('token_monitor');
+    console.log("Verificando token no INDEX:", token); // Para debug
 
-    if (!token) {
-        alert("Acesso negado! Por favor, faça login.");
+    if (!token || token === "undefined") {
+        console.log("Sem token! Expulsando para o login...");
         window.location.href = 'login.html';
     }
 </script>
