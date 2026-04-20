@@ -1,5 +1,5 @@
 // 1. ENDEREÇO DO SERVIDOR NA NUVEM
-const API_URL = "https://monitorapi.onrender.com";
+const API_URL = "https://www.github.com/brunoferreirasalustiano/Meu-monitor-api";
 
 // ==========================================
 // 1. VERIFICAÇÃO DE ACESSO E USUÁRIO LOGADO
