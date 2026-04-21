@@ -5,6 +5,11 @@ const API_URL = "https://monitorbackend-bc8kep81.b4a.run";
 // 1. VERIFICAÇÃO DE ACESSO E USUÁRIO LOGADO
 // ==========================================
 (function() {
+    
+    if (window.location.pathname.includes('login.html')) {
+        return;
+    }
+
     const token = localStorage.getItem('token_monitor');
     
     if (!token) {
