@@ -3,11 +3,9 @@
 <head>
     <script>
     const token = localStorage.getItem('token_monitor');
-    console.log("Verificando token no INDEX:", token); // Para debug
-
-    if (!token || token === "undefined") {
-        console.log("Sem token! Expulsando para o login...");
-        window.location.href = '/login.html';
+    // Se não tem nada, ou se o que tem é lixo ("undefined" ou "null")
+    if (!token || token === 'undefined' || token === 'null' || token === '') {
+        window.location.replace('login.html');
     }
 </script>
     <script src="script.js"></script>
