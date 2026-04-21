@@ -1,5 +1,5 @@
 // 1. ENDEREÇO DO SERVIDOR NA NUVEM
-const API_URL = "https://monitorbackend-d3gby9zm.b4a.run/"; 
+const API_URL = "https://meu-monitor-api.vercel.app"; 
 
 // ==========================================
 // 1. VERIFICAÇÃO DE ACESSO E USUÁRIO LOGADO
