@@ -3,12 +3,12 @@
 <head>
     <script>
     const token = localStorage.getItem('token_monitor');
-    // Se não tem nada, ou se o que tem é lixo ("undefined" ou "null")
+    // Se o token não existe ou é um texto inválido, manda para o login
     if (!token || token === 'undefined' || token === 'null' || token === '') {
         window.location.replace('login.html');
     }
 </script>
-    <script src="script.js"></script>
+<script src="js/script.js" defer></script>
     <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

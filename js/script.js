@@ -1,5 +1,5 @@
 // 1. ENDEREÇO DO SERVIDOR NA NUVEM
-const API_URL = "https://monitorbackend-w066ztic.b4a.run/";
+const API_URL = "https://monitorbackend-bc8kep81.b4a.run";
 
 // ==========================================
 // 1. VERIFICAÇÃO DE ACESSO E USUÁRIO LOGADO

@@ -6,15 +6,14 @@
     <title>Login - API Monitor</title>
 
     <script>
+        
        const token = localStorage.getItem('token_monitor');
-    // Se a chave é válida e real
+    // Se JÁ EXISTE um token válido, pula o login e vai para o monitor
     if (token && token !== 'undefined' && token !== 'null' && token !== '') {
         window.location.replace('index.html');
     }
-    </script>
-
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/script.js" defer></script>
+</script>
+<script src="js/script.js" defer></script>
 </head>
 <body>
     <div class="config-container" style="max-width: 400px; margin: 100px auto;">
